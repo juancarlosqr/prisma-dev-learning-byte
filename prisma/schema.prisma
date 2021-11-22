@@ -11,7 +11,13 @@ datasource db {
 }
 
 model Exchange {
-  id      Int     @id @default(autoincrement())
+  id      Int      @id @default(autoincrement())
   name    String
   website String?
+  country Country?
+}
+
+enum Country {
+  DE
+  US
 }

@@ -15,4 +15,7 @@ npx prisma init
 
 # run first migration
 npx prisma migrate dev
+
+# run country migration
+npx prisma migrate dev --name add_country
 ```
