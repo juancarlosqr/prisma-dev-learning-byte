@@ -4,10 +4,13 @@
   "description": "Intro to Prisma",
   "main": "src/index.ts",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "script": "ts-node --"
   },
-  "license": "MIT",
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "devDependencies": {
     "@types/node": "^16.11.9",
     "prisma": "3.5.0",

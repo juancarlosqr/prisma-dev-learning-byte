@@ -19,6 +19,12 @@ npx prisma migrate dev
 # run country migration
 npx prisma migrate dev --name add_country
 
-# run read scripts
+# run read script
+yarn script src/exchange-read.ts
+
+# add seed script and run it
+npx prisma db seed
+
+# run read script again
 yarn script src/exchange-read.ts
 ```
