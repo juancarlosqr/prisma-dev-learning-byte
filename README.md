@@ -27,4 +27,7 @@ npx prisma db seed
 
 # run read script again
 yarn script src/exchange-read.ts
+
+# run update script
+yarn script src/exchange-update.ts
 ```
