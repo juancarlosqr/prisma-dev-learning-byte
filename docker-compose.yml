@@ -1,0 +1,13 @@
+version: "3"
+services:
+  db:
+    image: "postgres:10"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: prisma
+      POSTGRES_PASSWORD: prisma
+      POSTGRES_DB: fintech-app
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    restart: unless-stopped

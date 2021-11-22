@@ -1,0 +1,11 @@
+{
+  "name": "prisma-dev-learning-byte",
+  "version": "1.0.0",
+  "description": "Intro to Prisma",
+  "main": "src/index.ts",
+  "private": true,
+  "scripts": {},
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
