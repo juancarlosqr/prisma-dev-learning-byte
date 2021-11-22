@@ -39,4 +39,7 @@ yarn script src/exchange-delete.ts
 
 # add companies model and run migration
 npx prisma migrate dev --name add_companies
+
+# run companies create script
+yarn script src/companies-create.ts
 ```
