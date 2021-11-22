@@ -33,4 +33,7 @@ yarn script src/exchange-update.ts
 
 # run create script
 yarn script src/exchange-create.ts
+
+# run delete script
+yarn script src/exchange-delete.ts
 ```
