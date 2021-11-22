@@ -4,7 +4,9 @@
   "description": "Intro to Prisma",
   "main": "src/index.ts",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "script": "ts-node --"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.9",

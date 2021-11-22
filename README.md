@@ -18,4 +18,7 @@ npx prisma migrate dev
 
 # run country migration
 npx prisma migrate dev --name add_country
+
+# run read scripts
+yarn script src/exchange-read.ts
 ```
