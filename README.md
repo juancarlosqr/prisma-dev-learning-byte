@@ -9,4 +9,10 @@ yarn add -D prisma
 
 # initialise prisma
 npx prisma init
+
+# edit .env
+# add exchange model
+
+# run first migration
+npx prisma migrate dev
 ```
