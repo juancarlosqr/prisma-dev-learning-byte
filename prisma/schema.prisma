@@ -11,10 +11,20 @@ datasource db {
 }
 
 model Exchange {
-  id      Int      @id @default(autoincrement())
-  name    String
-  website String?
-  country Country?
+  id        Int       @id @default(autoincrement())
+  name      String
+  website   String?
+  country   Country?
+  companies Company[]
+}
+
+model Company {
+  id         Int      @id @default(autoincrement())
+  name       String
+  symbol     String
+  price      Int
+  exchange   Exchange @relation(fields: [exchangeId], references: [id])
+  exchangeId Int
 }
 
 enum Country {
