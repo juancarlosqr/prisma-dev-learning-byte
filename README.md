@@ -30,4 +30,7 @@ yarn script src/exchange-read.ts
 
 # run update script
 yarn script src/exchange-update.ts
+
+# run create script
+yarn script src/exchange-create.ts
 ```
