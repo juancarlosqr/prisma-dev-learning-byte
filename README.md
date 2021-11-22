@@ -1,5 +1,11 @@
 # Intro to Prisma
 
+> Prisma is an open-source database toolkit for Typescript and Node.js
+
+[Prisma Documentation](https://www.prisma.io/docs/)
+
+**Steps**
+
 ```sh
 # add typescript dependencies
 yarn add -D typescript ts-node @types/node
@@ -46,3 +52,14 @@ yarn script src/companies-create.ts
 # run companies exchange create script
 yarn script src/companies-exchange-create.ts
 ```
+
+### More Resources
+
+- https://prisma.io/docs/concepts/overview/why-prisma
+- https://prisma.io/docs/concepts/overview/prisma-in-your-stack/is-prisma-an-orm
+- https://prisma.io/docs/concepts/more/comparisons
+- https://prisma.io/dataguide
+- https://prisma.io/dataguide/types/relational/comparing-sql-query-builders-and-orms
+- https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one
+- https://martinfowler.com/eaaCatalog/dataMapper.html
+- https://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/
